@@ -1,8 +1,5 @@
 #!/usr/bin/ruby
 
-#Author: Vatsaev Aslan (@avatsaev)
-#Repository: https://github.com/avatsaev/mackeeper_blocker
-
 #request root previleges in order to modify hosts file
 if ENV["USER"] != "root"
   exec("sudo #{ENV['_']} #{ARGV.join(' ')}")
@@ -11,10 +8,32 @@ end
 
 #initiate domain list array
 mk_address_list = [
-  "mackeeperapp.mackeeper.com",
-  "mackeeperapp2.mackeeper.com",
-  "mackeeperapp3.mackeeper.com",
-  "mackeeper.com"
+"mackeeperapp.mackeeper.com",
+"mackeeperapp2.mackeeper.com",
+"mackeeperapp3.mackeeper.com",
+"mackeeper.com",
+"mackeeperapp2.mackeeper.com”,
+"adnetworkperformance.com",
+"velocitymacinstall.com",
+"cleanmacsecurity.co",
+"advancedmaccleaner.com",
+"maccleaner",
+"sweet50ium50.com",
+"mackeeper.officialmacprotector.com",
+"mackeeper",
+"safestdownloadsrus119.com",
+"mackeeperapp",
+"mackeeperapp.mackeeoer.com",
+"5softwaredr.com",
+"autoupdate.forfreeupgrades.org",
+"forfreeupgrades.org",
+"sweet56ium56.com",
+"survey.rall.info",
+"autoupdate.forfreeupgrades.org",
+"forfreeupgrades.org",
+"sweet57ium57.com",
+"message-notify.com",
+"soft4update"
 ]
 
 #open hosts file in append mode
